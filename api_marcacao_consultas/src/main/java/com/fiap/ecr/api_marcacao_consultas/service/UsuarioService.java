@@ -35,7 +35,6 @@ public class UsuarioService {
 
         // Caso contrário, você precisará implementar uma lógica personalizada
         // Esta é uma implementação simplificada:
-        // Manteremos assim e implementaremos no futuro, se precisar!
         return usuarioRepository.findByTipo("MEDICO");
     }
 
